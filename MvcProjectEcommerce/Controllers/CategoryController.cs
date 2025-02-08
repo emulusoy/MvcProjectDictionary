@@ -22,11 +22,17 @@ namespace MvcProjectEcommerce.Controllers
             return View(listCategory);
         }
         [HttpGet]
-        ActionResult AddVategory(Category p)
+        public ActionResult AddCategory()
         {
-            return View(p);
+            return View();
         }
+
         [HttpPost]
+        public ActionResult AddCategory(Category p)
+        {
+            cm.AddCategoryBL(p);
+            return RedirectToAction("CategoryList");
+        }
 
     }
 }
