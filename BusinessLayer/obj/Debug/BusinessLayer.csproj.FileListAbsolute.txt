@@ -1,0 +1,6 @@
+C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\obj\Debug\BusinessLayer.pdb
