@@ -16,3 +16,9 @@ C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\bin\Debug\EntityLaye
 C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\bin\Debug\EntityFramework.xml
 C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\bin\Debug\FluentValidation.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\bin\Debug\FluentValidation.xml
+C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\eMu\source\repos\MvcProjectEcommerce\BusinessLayer\bin\Debug\System.Threading.Tasks.Extensions.xml

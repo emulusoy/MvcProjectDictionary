@@ -90,3 +90,9 @@ C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\EntityLaye
 C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\EntityLayer.dll.config
 C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\EntityFramework.xml
 C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\EntityFramework.SqlServer.xml
+C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\FluentValidation.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\FluentValidation.xml
+C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\System.Threading.Tasks.Extensions.xml

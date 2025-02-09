@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\mvcprojectecommerce\\views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\views\\category\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\category\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6BB61D2-7A84-4B3B-977E-8394BB3F86A6}|BusinessLayer\\BusinessLayer.csproj|C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\businesslayer\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6BB61D2-7A84-4B3B-977E-8394BB3F86A6}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\mvcprojectecommerce\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\views\\admincategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\admincategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddCategory.cshtml",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Category\\AddCategory.cshtml",
-              "RelativeDocumentMoniker": "MvcProjectEcommerce\\Views\\Category\\AddCategory.cshtml",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Category\\AddCategory.cshtml",
-              "RelativeToolTip": "MvcProjectEcommerce\\Views\\Category\\AddCategory.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-08T20:54:23.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryManager.cs",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\BusinessLayer\\Concrete\\CategoryManager.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Concrete\\CategoryManager.cs",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\BusinessLayer\\Concrete\\CategoryManager.cs*",
-              "RelativeToolTip": "BusinessLayer\\Concrete\\CategoryManager.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T20:15:03.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryList.cshtml",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Category\\CategoryList.cshtml",
-              "RelativeDocumentMoniker": "MvcProjectEcommerce\\Views\\Category\\CategoryList.cshtml",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Category\\CategoryList.cshtml",
-              "RelativeToolTip": "MvcProjectEcommerce\\Views\\Category\\CategoryList.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-08T20:10:34.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "MvcProjectEcommerce\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "MvcProjectEcommerce\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\AdminCategory\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcProjectEcommerce\\Views\\AdminCategory\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\AdminCategory\\Index.cshtml",
+              "RelativeToolTip": "MvcProjectEcommerce\\Views\\AdminCategory\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-08T19:58:30.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "MvcProjectEcommerce\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "MvcProjectEcommerce\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T16:15:28.765Z",
+              "WhenOpened": "2025-02-09T12:48:39.674Z",
               "EditorCaption": ""
             }
           ]
