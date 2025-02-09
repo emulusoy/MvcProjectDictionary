@@ -15,3 +15,5 @@ C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAcce
 C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
 C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
 C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_edit.resources
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_title_add.resources
