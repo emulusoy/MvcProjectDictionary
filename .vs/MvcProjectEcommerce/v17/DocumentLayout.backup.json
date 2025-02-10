@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\views\\writer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\writer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\views\\heading\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\heading\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Writer\\Index.cshtml",
-              "RelativeDocumentMoniker": "MvcProjectEcommerce\\Views\\Writer\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Writer\\Index.cshtml",
-              "RelativeToolTip": "MvcProjectEcommerce\\Views\\Writer\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Heading\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcProjectEcommerce\\Views\\Heading\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Heading\\Index.cshtml",
+              "RelativeToolTip": "MvcProjectEcommerce\\Views\\Heading\\Index.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAIAwwEcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-09T19:19:45.904Z",
+              "WhenOpened": "2025-02-10T11:13:47.335Z",
               "EditorCaption": ""
             }
           ]
