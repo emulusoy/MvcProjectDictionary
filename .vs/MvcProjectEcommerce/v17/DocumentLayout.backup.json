@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\views\\heading\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\heading\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6BB61D2-7A84-4B3B-977E-8394BB3F86A6}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\businesslayer\\concrete\\headingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BB61D2-7A84-4B3B-977E-8394BB3F86A6}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concrete\\headingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\controllers\\headingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\controllers\\headingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\views\\heading\\updateheading.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\heading\\updateheading.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HeadingManager.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\BusinessLayer\\Concrete\\HeadingManager.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Concrete\\HeadingManager.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\BusinessLayer\\Concrete\\HeadingManager.cs",
+              "RelativeToolTip": "BusinessLayer\\Concrete\\HeadingManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T22:42:47.794Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +49,35 @@
               "RelativeDocumentMoniker": "MvcProjectEcommerce\\Views\\Heading\\Index.cshtml",
               "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Heading\\Index.cshtml",
               "RelativeToolTip": "MvcProjectEcommerce\\Views\\Heading\\Index.cshtml",
-              "ViewState": "AgIAACsAAAAAAAAAAIAwwEcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T11:13:47.335Z",
+              "WhenOpened": "2025-02-10T22:32:57.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateHeading.cshtml",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Heading\\UpdateHeading.cshtml",
+              "RelativeDocumentMoniker": "MvcProjectEcommerce\\Views\\Heading\\UpdateHeading.cshtml",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Heading\\UpdateHeading.cshtml",
+              "RelativeToolTip": "MvcProjectEcommerce\\Views\\Heading\\UpdateHeading.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T22:31:17.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HeadingController.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Controllers\\HeadingController.cs",
+              "RelativeDocumentMoniker": "MvcProjectEcommerce\\Controllers\\HeadingController.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Controllers\\HeadingController.cs",
+              "RelativeToolTip": "MvcProjectEcommerce\\Controllers\\HeadingController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwFcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T22:27:46.592Z",
               "EditorCaption": ""
             }
           ]

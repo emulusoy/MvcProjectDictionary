@@ -24,6 +24,7 @@ namespace MvcProjectEcommerce.Controllers
         [HttpGet]
         public ActionResult AddHeading()
         {                                      //dropdown list icin yaptilk
+            
             List<SelectListItem> valueCategory=(from x in categoryManager.GetList()
 
                                                 select new SelectListItem
@@ -57,5 +58,37 @@ namespace MvcProjectEcommerce.Controllers
             headingManager.HeadingAdd(p);
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public ActionResult UpdateHeading(int id)
+        {
+            List<SelectListItem> valueCategory = (from x in categoryManager.GetList()
+
+                                                  select new SelectListItem
+                                                  {
+                                                      Text = x.CategoryName,
+                                                      Value = x.CategoryID.ToString(),
+                                                  }
+                                                ).ToList();
+            ViewBag.bagCategory = valueCategory;
+            var headingValue= headingManager.GetById(id);
+            return View(headingValue);
+        }
+        [HttpPost]
+        public ActionResult UpdateHeading(Heading p)
+        {
+            headingManager.HeadingUpdate(p);
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult DeleteHeading(int id) 
+        {
+            var headingValue = headingManager.GetById(id);
+
+            headingManager.HeadingDelete(headingValue);
+
+            return RedirectToAction("Index");
+        }
+
     }
 }
