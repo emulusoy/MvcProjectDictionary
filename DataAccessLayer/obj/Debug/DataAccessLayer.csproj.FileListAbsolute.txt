@@ -21,3 +21,4 @@ C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAcce
 C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_status.resources
 C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_content_status.resources
 C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_.resources
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_Addmessage_table.resources
