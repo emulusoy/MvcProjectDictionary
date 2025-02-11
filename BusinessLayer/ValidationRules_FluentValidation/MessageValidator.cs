@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using EntityLayer.Concrete;
 using FluentValidation;
+using FluentValidation.Results;
 
 namespace BusinessLayer.ValidationRules_FluentValidation
 {

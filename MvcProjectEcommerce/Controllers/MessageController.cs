@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using System.Web.Services.Description;
 using BusinessLayer.Concrete;
+using BusinessLayer.ValidationRules_FluentValidation;
 using DataAccessLayer.EntityFramework;
+using EntityLayer.Concrete;
+using FluentValidation.Results;
+
 
 namespace MvcProjectEcommerce.Controllers
 {
@@ -13,6 +16,7 @@ namespace MvcProjectEcommerce.Controllers
     {
         // GET: Message
         MessageManager messageManager = new MessageManager(new EfMessageDal());
+        MessageValidator messageValidation = new MessageValidator();
         public ActionResult Inbox()
         {
             var messageList = messageManager.GetListInbox();
@@ -30,6 +34,13 @@ namespace MvcProjectEcommerce.Controllers
 
             return View(messageValues);
         }
+        public ActionResult GetSendboxMessageDetails(int id)
+        {
+
+            var messageValues = messageManager.GetById(id);
+
+            return View(messageValues);
+        }
         [HttpGet]
         public ActionResult AddMessage()
         {
@@ -38,6 +49,20 @@ namespace MvcProjectEcommerce.Controllers
         [HttpPost]
         public ActionResult AddMessage(Message p)
         {
+            ValidationResult results = messageValidation.Validate(p);
+            if (results.IsValid)
+            {
+                p.MessageDate =DateTime.Parse(DateTime.Now.ToShortDateString());
+                messageManager.MessageAdd(p);
+                return RedirectToAction("SendBox");
+            }
+            else
+            {
+                foreach (var item in results.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+            }
             return View();
         }
 

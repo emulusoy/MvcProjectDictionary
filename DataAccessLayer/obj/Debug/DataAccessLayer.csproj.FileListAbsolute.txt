@@ -22,3 +22,14 @@ C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAcce
 C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_content_status.resources
 C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_.resources
 C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_Addmessage_table.resources
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.Web.Mvc.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.Web.WebPages.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.Web.Razor.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.Web.Mvc.xml
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.Web.WebPages.xml
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.Web.Razor.xml
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.Web.WebPages.Deployment.xml
