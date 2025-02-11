@@ -7,19 +7,23 @@
       "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\message\\inbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\views\\message\\getinboxmessagedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\message\\getinboxmessagedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E6BB61D2-7A84-4B3B-977E-8394BB3F86A6}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\businesslayer\\concrete\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BB61D2-7A84-4B3B-977E-8394BB3F86A6}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concrete\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\views\\contact\\getcontactdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\contact\\getcontactdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\mvcprojectecommerce\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\mvcprojectecommerce\\views\\message\\getinboxmessagedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\message\\getinboxmessagedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\mvcprojectecommerce\\views\\contact\\getcontactdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\contact\\getcontactdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\mvcprojectecommerce\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageManager.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\BusinessLayer\\Concrete\\MessageManager.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Concrete\\MessageManager.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\BusinessLayer\\Concrete\\MessageManager.cs",
+              "RelativeToolTip": "BusinessLayer\\Concrete\\MessageManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T19:49:13.675Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GetContactDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Contact\\GetContactDetails.cshtml",
               "RelativeDocumentMoniker": "MvcProjectEcommerce\\Views\\Contact\\GetContactDetails.cshtml",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "MvcProjectEcommerce\\Views\\Contact\\GetContactDetails.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-11T18:09:02.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T18:09:02.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GetInboxMessageDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Message\\GetInboxMessageDetails.cshtml",
               "RelativeDocumentMoniker": "MvcProjectEcommerce\\Views\\Message\\GetInboxMessageDetails.cshtml",
@@ -68,12 +84,11 @@
               "RelativeToolTip": "MvcProjectEcommerce\\Views\\Message\\GetInboxMessageDetails.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-11T18:08:52.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T18:08:52.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MessageController.cs",
               "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Controllers\\MessageController.cs",
               "RelativeDocumentMoniker": "MvcProjectEcommerce\\Controllers\\MessageController.cs",
@@ -81,18 +96,17 @@
               "RelativeToolTip": "MvcProjectEcommerce\\Controllers\\MessageController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T18:07:15.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T18:07:15.312Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ContactController.cs",
               "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Controllers\\ContactController.cs",
               "RelativeDocumentMoniker": "MvcProjectEcommerce\\Controllers\\ContactController.cs",
               "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Controllers\\ContactController.cs",
               "RelativeToolTip": "MvcProjectEcommerce\\Controllers\\ContactController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T18:07:14.275Z",
               "EditorCaption": ""
