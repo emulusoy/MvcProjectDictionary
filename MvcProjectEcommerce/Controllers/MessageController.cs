@@ -23,6 +23,13 @@ namespace MvcProjectEcommerce.Controllers
             var messageList = messageManager.GetListSendBox();
             return View(messageList);
         }
+        public ActionResult GetInboxMessageDetails(int id)
+        {
+
+            var messageValues = messageManager.GetById(id);
+
+            return View(messageValues);
+        }
         [HttpGet]
         public ActionResult AddMessage()
         {
@@ -33,5 +40,6 @@ namespace MvcProjectEcommerce.Controllers
         {
             return View();
         }
+
     }
 }
