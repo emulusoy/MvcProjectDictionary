@@ -15,6 +15,8 @@ namespace MvcProjectEcommerce.Controllers
     {
         // GET: AdminCategory
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
+
+        [Authorize(Roles="B")]//sadece B rolune sahip olanlar gorecek!
         public ActionResult Index()
         {
             var categoryValues = cm.GetList();

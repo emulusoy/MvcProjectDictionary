@@ -33,3 +33,5 @@ C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.W
 C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.Web.Razor.xml
 C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_table_image.resources
+C:\Users\eMu\source\repos\MvcProjectEcommerce\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_Admin_table.resources
