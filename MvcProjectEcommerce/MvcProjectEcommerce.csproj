@@ -148,7 +148,9 @@
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\MessageController.cs" />
     <Compile Include="Controllers\WriterController.cs" />
+    <Compile Include="Controllers\WriterPanelContentController.cs" />
     <Compile Include="Controllers\WriterPanelController.cs" />
+    <Compile Include="Controllers\WriterPanelMessageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -2446,6 +2448,14 @@
     <Content Include="Views\WriterPanel\MyHeading.cshtml" />
     <Content Include="Views\WriterPanel\NewHeading.cshtml" />
     <Content Include="Views\WriterPanel\UpdateHeadingWP.cshtml" />
+    <Content Include="Views\WriterPanelMessage\InboxWP.cshtml" />
+    <Content Include="Views\WriterPanelMessage\MessageListMenuWP.cshtml" />
+    <Content Include="Views\WriterPanelMessage\SendBoxWP.cshtml" />
+    <Content Include="Views\WriterPanelMessage\GetInboxMessageDetailsWP.cshtml" />
+    <Content Include="Views\WriterPanelMessage\GetSendboxMessageDetailsWP.cshtml" />
+    <Content Include="Views\WriterPanelMessage\AddMessageWP.cshtml" />
+    <Content Include="Views\WriterPanelContent\MyContent.cshtml" />
+    <Content Include="Views\Login\WriterLogin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
