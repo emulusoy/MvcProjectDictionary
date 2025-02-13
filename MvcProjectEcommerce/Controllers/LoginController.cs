@@ -34,26 +34,5 @@ namespace MvcProjectEcommerce.Controllers
             }
             
         }
-        [HttpGet]
-        public ActionResult WriterLogin() 
-        {
-            return View();
-        }
-        [HttpPost]
-        public ActionResult WriterLogin(Writer p)
-        {
-            Context value = new Context();
-            var writerUser = value.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
-            if (writerUser != null)
-            {
-                FormsAuthentication.SetAuthCookie(writerUser.WriterMail, false);
-                Session["WriterMail"] = writerUser.WriterMail;
-                return RedirectToAction("WriterPanelMessage", "InboxWP");
-            }
-            else
-            {
-                return RedirectToAction("WriterLogin");
-            }
-        }
     }
 }

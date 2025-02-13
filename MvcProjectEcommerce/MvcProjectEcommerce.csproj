@@ -148,6 +148,7 @@
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\MessageController.cs" />
     <Compile Include="Controllers\WriterController.cs" />
+    <Compile Include="Controllers\WriterLoginController.cs" />
     <Compile Include="Controllers\WriterPanelContentController.cs" />
     <Compile Include="Controllers\WriterPanelController.cs" />
     <Compile Include="Controllers\WriterPanelMessageController.cs" />
@@ -158,11 +159,11 @@
     <Compile Include="Roles\AdminRoleProvider.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="404PageFolder\css\font-awesome.min.css" />
-    <Content Include="404PageFolder\css\style.css" />
-    <Content Include="404PageFolder\fonts\fontawesome-webfont.svg" />
-    <Content Include="404PageFolder\index.html" />
-    <Content Include="404PageFolder\readme.txt" />
+    <Content Include="Views\404PageFolder\css\font-awesome.min.css" />
+    <Content Include="Views\404PageFolder\css\style.css" />
+    <Content Include="Views\404PageFolder\fonts\fontawesome-webfont.svg" />
+    <Content Include="Views\404PageFolder\index.html" />
+    <Content Include="Views\404PageFolder\readme.txt" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -2324,11 +2325,11 @@
     <Content Include="eMuAdmin\plugins\sweetalert2-theme-bootstrap-4\bootstrap-4.scss" />
     <Content Include="eMuAdmin\plugins\toastr\toastr.js.map" />
     <Content Include="eMuAdmin\README.md" />
-    <Content Include="404PageFolder\fonts\fontawesome-webfont.eot" />
-    <Content Include="404PageFolder\fonts\fontawesome-webfont.ttf" />
-    <Content Include="404PageFolder\fonts\fontawesome-webfont.woff" />
-    <Content Include="404PageFolder\fonts\fontawesome-webfont.woff2" />
-    <Content Include="404PageFolder\fonts\FontAwesome.otf" />
+    <Content Include="Views\404PageFolder\fonts\fontawesome-webfont.eot" />
+    <Content Include="Views\404PageFolder\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Views\404PageFolder\fonts\fontawesome-webfont.woff" />
+    <Content Include="Views\404PageFolder\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Views\404PageFolder\fonts\FontAwesome.otf" />
     <Content Include="eMuAdminLogin\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
     <Content Include="eMuAdminLogin\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
     <Content Include="eMuAdminLogin\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
@@ -2455,7 +2456,7 @@
     <Content Include="Views\WriterPanelMessage\GetSendboxMessageDetailsWP.cshtml" />
     <Content Include="Views\WriterPanelMessage\AddMessageWP.cshtml" />
     <Content Include="Views\WriterPanelContent\MyContent.cshtml" />
-    <Content Include="Views\Login\WriterLogin.cshtml" />
+    <Content Include="Views\WriterLogin\WriterLogin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

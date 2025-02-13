@@ -38,8 +38,8 @@ namespace MvcProjectEcommerce.Roles
 
         public override string[] GetRolesForUser(string username)
         {
-            Context c=new Context();
-            var value = c.Admins.FirstOrDefault(x => x.AdminUsername == username);
+            Context context = new Context();
+            var value = context.Admins.FirstOrDefault(x => x.AdminUsername == username);
             return new string[] { value.AdminRole };
         }
 
