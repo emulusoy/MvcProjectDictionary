@@ -11,6 +11,7 @@ using FluentValidation.Results;
 
 namespace MvcProjectEcommerce.Controllers
 {
+
     public class WriterController : Controller
     {
         // GET: Writer

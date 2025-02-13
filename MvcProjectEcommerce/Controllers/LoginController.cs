@@ -9,9 +9,11 @@ using EntityLayer.Concrete;
 
 namespace MvcProjectEcommerce.Controllers
 {
+    [AllowAnonymous]
     public class LoginController : Controller
     {
         // GET: Login
+
         [HttpGet]
         public ActionResult Index()
         {

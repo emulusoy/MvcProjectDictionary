@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using BusinessLayer.Concrete;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 
@@ -14,15 +15,18 @@ namespace MvcProjectEcommerce.Controllers
         // GET: WriterPanel
 
         HeadingManager headingManager=new HeadingManager(new EfHeadingDal());
-        CategoryManager categoryManager=new CategoryManager(new EfCategoryDal());   
+        CategoryManager categoryManager=new CategoryManager(new EfCategoryDal());
+    
         public ActionResult WriterProfileIndex()
         {
             return View();
         }
-        public ActionResult MyHeading() 
+        public ActionResult MyHeading(string p) 
         {
-            //id = 2;
-            var values=headingManager.GetListByWriter();
+            Context context = new Context();
+            p = (string)Session["WriterMail"];
+             var findWriterId=context.Writers.Where(x=>x.WriterMail==p).Select(y=>y.WriterID).FirstOrDefault();
+            var values=headingManager.GetListByWriter(findWriterId);
             return View(values);
         }
         [HttpGet]

@@ -10,6 +10,7 @@ using System.Web.Configuration;
 
 namespace MvcProjectEcommerce.Controllers
 {
+    [AllowAnonymous]
     public class WriterLoginController : Controller
     {
         // GET: WriterLogin
@@ -28,7 +29,7 @@ namespace MvcProjectEcommerce.Controllers
                 {
                     FormsAuthentication.SetAuthCookie(writerUser.WriterMail, false);
                     Session["WriterMail"] = writerUser.WriterMail;
-                    return RedirectToAction("InboxWP", "WriterPanelMessage");
+                    return RedirectToAction("MyContent", "WriterPanelContent");
                 }
                 else
                 {

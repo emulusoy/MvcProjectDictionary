@@ -28,10 +28,10 @@ namespace BusinessLayer.Concrete
             return _headingDal.List();
         }
 
-        public List<Heading> GetListByWriter()
+        public List<Heading> GetListByWriter(int id)
         {
             //burasi writer panel icin yapildi
-            return _headingDal.List(x=>x.WriterID==4);
+            return _headingDal.List(x=>x.WriterID==id);
         }
 
         public void HeadingAdd(Heading heading)
