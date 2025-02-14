@@ -16,22 +16,25 @@ namespace MvcProjectEcommerce.Controllers
 
         HeadingManager headingManager=new HeadingManager(new EfHeadingDal());
         CategoryManager categoryManager=new CategoryManager(new EfCategoryDal());
-    
+
+        Context context = new Context();
+
         public ActionResult WriterProfileIndex()
         {
             return View();
         }
         public ActionResult MyHeading(string p) 
         {
-            Context context = new Context();
             p = (string)Session["WriterMail"];
-             var findWriterId=context.Writers.Where(x=>x.WriterMail==p).Select(y=>y.WriterID).FirstOrDefault();
+            var findWriterId = context.Writers.Where(x => x.WriterMail == p).Select(y => y.WriterID).FirstOrDefault();
             var values=headingManager.GetListByWriter(findWriterId);
             return View(values);
         }
         [HttpGet]
         public ActionResult NewHeading() 
         {
+            
+            
             List<SelectListItem> valueCategory = (from x in categoryManager.GetList()
 
                                                   select new SelectListItem
@@ -46,8 +49,10 @@ namespace MvcProjectEcommerce.Controllers
         [HttpPost]
         public ActionResult NewHeading(Heading p)
         {
+            string mail = (string)Session["WriterMail"];
+            var findWriterId = context.Writers.Where(x => x.WriterMail == mail).Select(y => y.WriterID).FirstOrDefault();
             p.HeadingDate =DateTime.Parse(DateTime.Now.ToShortDateString());
-            p.WriterID = 4;
+            p.WriterID = findWriterId;
             p.HeadingStatus=true;
             headingManager.HeadingAdd(p);
             return RedirectToAction("MyHeading");
@@ -81,6 +86,11 @@ namespace MvcProjectEcommerce.Controllers
             headingManager.HeadingDelete(headingValue);
 
             return RedirectToAction("MyHeading");
+        }
+        public ActionResult AllHeading()
+        {
+            var headingsAll=headingManager.GetList();
+            return View(headingsAll);
         }
     }
 }

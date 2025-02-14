@@ -36,6 +36,12 @@ namespace MvcProjectEcommerce.Controllers
                     return RedirectToAction("WriterLogin");
                 }
         }
+        public ActionResult LogOut()
+        {
+            FormsAuthentication.SignOut();
+            Session.Abandon();
+            return RedirectToAction("WriterLogin", "WriterLogin");
+        }
         
     }
 }
