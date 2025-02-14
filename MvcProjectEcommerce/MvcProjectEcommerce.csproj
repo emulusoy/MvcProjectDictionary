@@ -2464,14 +2464,14 @@
     <Content Include="Views\WriterPanelMessage\MessageListMenuWP.cshtml" />
     <Content Include="Views\WriterPanelMessage\SendBoxWP.cshtml" />
     <Content Include="Views\WriterPanelMessage\GetInboxMessageDetailsWP.cshtml" />
-    <Content Include="Views\WriterPanelMessage\GetSendboxMessageDetailsWP.cshtml" />
-    <Content Include="Views\WriterPanelMessage\AddMessageWP.cshtml" />
     <Content Include="Views\WriterPanelContent\MyContent.cshtml" />
     <Content Include="Views\WriterLogin\WriterLogin.cshtml" />
     <Content Include="Views\Default\Headings.cshtml" />
     <Content Include="Views\Default\Index.cshtml" />
     <Content Include="Views\WriterPanel\AllHeading.cshtml" />
     <Content Include="Views\WriterPanelContent\AddContent.cshtml" />
+    <Content Include="Views\WriterPanelMessage\NewMessageWP.cshtml" />
+    <Content Include="Views\WriterPanelMessage\GetSendBoxMessageDetailsWP.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

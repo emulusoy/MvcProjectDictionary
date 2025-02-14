@@ -30,8 +30,8 @@ namespace BusinessLayer.ValidationRules_FluentValidation
                 .MaximumLength(1000).WithMessage("Mesaj içeriği en fazla 1000 karakter olabilir.");
 
             RuleFor(message => message.MessageDate)
-                .NotEmpty().WithMessage("Mesaj tarihi boş olamaz.")
-                .LessThanOrEqualTo(DateTime.Now).WithMessage("Mesaj tarihi gelecekte olamaz.");
+                .NotEmpty().WithMessage("Mesaj tarihi boş olamaz.");
+                
         }
     }
 }

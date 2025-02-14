@@ -30,9 +30,9 @@ namespace BusinessLayer.Concrete
             return _messageDal.List(x => x.MessageReceiverMail == p);
         }
 
-        public List<Message> GetListSendBox()
+        public List<Message> GetListSendBox(string p)
         {
-            return _messageDal.List(x => x.MessageSenderMail == "mehmetkala@gmail.com");
+            return _messageDal.List(x => x.MessageSenderMail == p);
         }
 
         public void MessageAdd(Message message)

@@ -17,12 +17,11 @@ namespace MvcProjectEcommerce.Controllers
         // GET: WriterPanelMessage
 
         MessageManager messageManager = new MessageManager(new EfMessageDal());
-        MessageValidator messageValidation = new MessageValidator();
-        Context context = new Context();
+        MessageValidator messageValidatior = new MessageValidator();
+        
         public ActionResult InboxWP()
         {
             string  p = (string)Session["WriterMail"];
-            var findWriterId = context.Writers.Where(x => x.WriterMail == p).Select(y => y.WriterID).FirstOrDefault();
             var messageList = messageManager.GetListInbox(p);
             return View(messageList);
         }
@@ -32,38 +31,37 @@ namespace MvcProjectEcommerce.Controllers
         }
         public ActionResult SendBoxWP()
         {
-            var messageList = messageManager.GetListSendBox();
+            string p = (string)Session["WriterMail"];
+            var messageList = messageManager.GetListSendBox(p);
             return View(messageList);
         }
         public ActionResult GetInboxMessageDetailsWP(int id)
         {
 
             var messageValues = messageManager.GetById(id);
-
             return View(messageValues);
         }
-        public ActionResult GetSendboxMessageDetailsWP(int id)
+        public ActionResult GetSendBoxMessageDetailsWP(int id)
         {
-
             var messageValues = messageManager.GetById(id);
-
             return View(messageValues);
         }
         [HttpGet]
-        public ActionResult AddMessageWP()
+        public ActionResult NewMessageWP()
         {
             return View();
         }
         [HttpPost]
-        public ActionResult AddMessageWP(Message p)
+        public ActionResult NewMessageWP(Message p)
         {
-            ValidationResult results = messageValidation.Validate(p);
+            string mailP = (string)Session["WriterMail"];
+            ValidationResult results = messageValidatior.Validate(p);
             if (results.IsValid)
             {
-                p.MessageSenderMail = "mehmetkala@gmail.com";
+                p.MessageSenderMail = mailP;
                 p.MessageDate = DateTime.Parse(DateTime.Now.ToShortDateString());
                 messageManager.MessageAdd(p);
-                return RedirectToAction("SendBox");
+                return RedirectToAction("SendBoxWP");
             }
             else
             {
