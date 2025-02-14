@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using BusinessLayer.Concrete;
 using BusinessLayer.ValidationRules_FluentValidation;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
@@ -17,9 +18,12 @@ namespace MvcProjectEcommerce.Controllers
 
         MessageManager messageManager = new MessageManager(new EfMessageDal());
         MessageValidator messageValidation = new MessageValidator();
+        Context context = new Context();
         public ActionResult InboxWP()
         {
-            var messageList = messageManager.GetListInbox();
+            string  p = (string)Session["WriterMail"];
+            var findWriterId = context.Writers.Where(x => x.WriterMail == p).Select(y => y.WriterID).FirstOrDefault();
+            var messageList = messageManager.GetListInbox(p);
             return View(messageList);
         }
         public PartialViewResult MessageListMenuWP()

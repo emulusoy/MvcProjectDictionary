@@ -7,7 +7,8 @@ using BusinessLayer.Concrete;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
-
+using PagedList;
+using PagedList.Mvc;
 namespace MvcProjectEcommerce.Controllers
 {
     public class WriterPanelController : Controller
@@ -87,9 +88,9 @@ namespace MvcProjectEcommerce.Controllers
 
             return RedirectToAction("MyHeading");
         }
-        public ActionResult AllHeading()
+        public ActionResult AllHeading(int page=1)//sayfalama islemi icin!
         {
-            var headingsAll=headingManager.GetList();
+            var headingsAll = headingManager.GetList().ToPagedList(page, 4);
             return View(headingsAll);
         }
     }

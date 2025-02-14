@@ -96,3 +96,8 @@ C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\System.Thr
 C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\FluentValidation.xml
 C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\PagedList.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\PagedList.Mvc.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\X.PagedList.dll
+C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\PagedList.xml
+C:\Users\eMu\source\repos\MvcProjectEcommerce\MvcProjectEcommerce\bin\PagedList.Mvc.xml
