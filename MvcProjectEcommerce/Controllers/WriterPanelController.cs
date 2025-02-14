@@ -17,12 +17,16 @@ namespace MvcProjectEcommerce.Controllers
 
         HeadingManager headingManager=new HeadingManager(new EfHeadingDal());
         CategoryManager categoryManager=new CategoryManager(new EfCategoryDal());
+        WriterManager writerManager=new WriterManager(new EfWriterDal());
 
         Context context = new Context();
 
-        public ActionResult WriterProfileIndex()
+        public ActionResult WriterProfileIndex(int id=0)
         {
-            return View();
+            string p = (string)Session["WriterMail"];
+            id = context.Writers.Where(x => x.WriterMail == p).Select(y => y.WriterID).FirstOrDefault();
+            var writerValues = writerManager.GetById(id);
+            return View(writerValues);
         }
         public ActionResult MyHeading(string p) 
         {
