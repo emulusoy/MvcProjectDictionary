@@ -1,91 +1,112 @@
-Business Layer
-Abstract: Servis arayüzleri (interfaces) bulunur.
+# Sözlük Sitesi Projesi 📖
 
-IAboutService.cs
+Bu proje, **ASP.NET MVC** kullanılarak geliştirilmiş bir sözlük uygulamasıdır. Proje, katmanlı mimari (N-Tier Architecture) prensiplerine uygun olarak tasarlanmıştır ve **Business Layer**, **Data Access Layer**, **Entity Layer** ve **Presentation Layer** gibi katmanlardan oluşmaktadır.
 
-ICategoryService.cs
+---
 
-IContentService.cs
+## 📂 Proje Yapısı
 
-IMessageService.cs
+Proje, aşağıdaki katmanlardan oluşmaktadır:
 
-IWriterService.cs
+### 1. **Business Layer**
+- **Abstract**: Servis arayüzleri (interfaces) bulunur.
+  - `IAboutService.cs`
+  - `ICategoryService.cs`
+  - `IContentService.cs`
+  - `IMessageService.cs`
+  - `IWriterService.cs`
+- **Concrete**: Servis sınıfları ve iş mantığı (business logic) bulunur.
+  - `AboutManager.cs`
+  - `CategoryManager.cs`
+  - `ContentManager.cs`
+  - `MessageManager.cs`
+  - `WriterManager.cs`
+- **ValidationRules_FluentValidation**: FluentValidation kütüphanesi ile doğrulama kuralları tanımlanır.
 
-Concrete: Servis sınıfları ve iş mantığı (business logic) bulunur.
+### 2. **Data Access Layer**
+- **Abstract**: Veritabanı erişim arayüzleri (interfaces) bulunur.
+  - `IAboutDal.cs`
+  - `ICategoryDal.cs`
+  - `IContentDal.cs`
+  - `IMessageDal.cs`
+  - `IWriterDal.cs`
+- **Concrete**: Entity Framework kullanılarak veritabanı erişim sınıfları bulunur.
+  - `EfAboutDal.cs`
+  - `EfCategoryDal.cs`
+  - `EfContentDal.cs`
+  - `EfMessageDal.cs`
+  - `EfWriterDal.cs`
+- **Migrations**: Veritabanı migrasyon dosyaları bulunur.
 
-AboutManager.cs
+### 3. **Entity Layer**
+- **Concrete**: Veritabanı tablolarına karşılık gelen entity sınıfları bulunur.
+  - `About.cs`
+  - `Category.cs`
+  - `Content.cs`
+  - `Message.cs`
+  - `Writer.cs`
 
-CategoryManager.cs
+### 4. **Presentation Layer (MVC)**
+- **Controllers**: MVC controller sınıfları bulunur.
+  - `AboutController.cs`
+  - `CategoryController.cs`
+  - `ContentController.cs`
+  - `MessageController.cs`
+  - `WriterController.cs`
+- **Views**: Controller'lara karşılık gelen view dosyaları bulunur.
+  - `About`
+  - `Category`
+  - `Content`
+  - `Message`
+  - `Writer`
+- **Models**: View modelleri ve diğer yardımcı modeller bulunur.
+- **Scripts**: JavaScript dosyaları bulunur.
+- **Styles**: CSS dosyaları bulunur.
 
-ContentManager.cs
+---
 
-MessageManager.cs
+## 🛠️ Kurulum
 
-WriterManager.cs
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
-ValidationRules_FluentValidation: FluentValidation kütüphanesi ile doğrulama kuralları tanımlanır.
+1. **Gereksinimler**:
+   - .NET Framework 4.7.2 veya üzeri
+   - Visual Studio 2019 veya üzeri
+   - SQL Server (LocalDB veya başka bir SQL Server)
 
-2. Data Access Layer
-Abstract: Veritabanı erişim arayüzleri (interfaces) bulunur.
+2. **Veritabanı Kurulumu**:
+   - `DataAccessLayer/Migrations` klasöründeki migrasyon dosyalarını kullanarak veritabanını oluşturun.
+   - `Update-Database` komutunu Package Manager Console'da çalıştırarak veritabanını güncelleyin.
 
-IAboutDal.cs
+3. **Projeyi Çalıştırma**:
+   - Visual Studio'da projeyi açın.
+   - `Ctrl + F5` tuşlarına basarak projeyi çalıştırın.
 
-ICategoryDal.cs
+---
 
-IContentDal.cs
+## ✨ Özellikler
 
-IMessageDal.cs
+- **Kategori Yönetimi**: Sözlük kategorileri ekleme, düzenleme ve silme.
+- **İçerik Yönetimi**: Sözlük içeriklerini ekleme, düzenleme ve silme.
+- **Yazar Yönetimi**: Yazar bilgilerini yönetme.
+- **Mesaj Yönetimi**: Kullanıcılar arası mesajlaşma.
+- **Hakkında Sayfası**: Site hakkında bilgilerin yönetimi.
 
-IWriterDal.cs
+---
 
-Concrete: Entity Framework kullanılarak veritabanı erişim sınıfları bulunur.
+## 📝 Katkıda Bulunma
 
-EfAboutDal.cs
+Projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
+1. Bu depoyu forklayın.
+2. Yeni bir branch oluşturun (`git checkout -b feature/AmazingFeature`).
+3. Değişikliklerinizi commit edin (`git commit -m 'Add some AmazingFeature'`).
+4. Branch'inize push yapın (`git push origin feature/AmazingFeature`).
+5. Bir Pull Request açın.
 
-EfCategoryDal.cs
+---
 
-EfContentDal.cs
+## 📜 Lisans
 
-EfMessageDal.cs
+Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasını inceleyin.
 
-EfWriterDal.cs
-
-Migrations: Veritabanı migrasyon dosyaları bulunur.
-
-3. Entity Layer
-Concrete: Veritabanı tablolarına karşılık gelen entity sınıfları bulunur.
-
-About.cs
-
-Category.cs
-
-Content.cs
-
-Message.cs
-
-Writer.cs
-
-4. Presentation Layer (MVC)
-Controllers: MVC controller sınıfları bulunur.
-
-AboutController.cs
-
-CategoryController.cs
-
-ContentController.cs
-
-MessageController.cs
-
-WriterController.cs
-
-Views: Controller'lara karşılık gelen view dosyaları bulunur.
-
-About
-
-Category
-
-Content
-
-Message
-
-Writer
+---
