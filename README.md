@@ -10,103 +10,67 @@ Proje, aşağıdaki katmanlardan oluşmaktadır:
 
 ### 1. **Business Layer**
 - **Abstract**: Servis arayüzleri (interfaces) bulunur.
-  - `IAboutService.cs`
-  - `ICategoryService.cs`
-  - `IContentService.cs`
-  - `IMessageService.cs`
-  - `IWriterService.cs`
+  - `IAboutService.cs`- `ICategoryService.cs`- `IContentService.cs`- `IMessageService.cs`- `IWriterService.cs`
 - **Concrete**: Servis sınıfları ve iş mantığı (business logic) bulunur.
-  - `AboutManager.cs`
-  - `CategoryManager.cs`
-  - `ContentManager.cs`
-  - `MessageManager.cs`
-  - `WriterManager.cs`
+  - `AboutManager.cs`- `CategoryManager.cs`- `ContentManager.cs`- `MessageManager.cs`- `WriterManager.cs`
 - **ValidationRules_FluentValidation**: FluentValidation kütüphanesi ile doğrulama kuralları tanımlanır.
 
 ### 2. **Data Access Layer**
 - **Abstract**: Veritabanı erişim arayüzleri (interfaces) bulunur.
-  - `IAboutDal.cs`
-  - `ICategoryDal.cs`
-  - `IContentDal.cs`
-  - `IMessageDal.cs`
-  - `IWriterDal.cs`
+  - `IAboutDal.cs`- `ICategoryDal.cs`- `IContentDal.cs`- `IMessageDal.cs`- `IWriterDal.cs`
 - **Concrete**: Entity Framework kullanılarak veritabanı erişim sınıfları bulunur.
-  - `EfAboutDal.cs`
-  - `EfCategoryDal.cs`
-  - `EfContentDal.cs`
-  - `EfMessageDal.cs`
-  - `EfWriterDal.cs`
+  - `EfAboutDal.cs`  - `EfCategoryDal.cs` - `EfContentDal.cs` - `EfMessageDal.cs` - `EfWriterDal.cs`
 - **Migrations**: Veritabanı migrasyon dosyaları bulunur.
-
+- 
 ### 3. **Entity Layer**
 - **Concrete**: Veritabanı tablolarına karşılık gelen entity sınıfları bulunur.
-  - `About.cs`
-  - `Category.cs`
-  - `Content.cs`
-  - `Message.cs`
-  - `Writer.cs`
+  - `About.cs`-`Category.cs` - `Content.cs` - `Message.cs` - `Writer.cs`
 
 ### 4. **Presentation Layer (MVC)**
 - **Controllers**: MVC controller sınıfları bulunur.
-  - `AboutController.cs`
-  - `CategoryController.cs`
-  - `ContentController.cs`
-  - `MessageController.cs`
-  - `WriterController.cs`
+  - `AboutController.cs` - `CategoryController.cs` - `ContentController.cs` - `MessageController.cs`- `WriterController.cs`
 - **Views**: Controller'lara karşılık gelen view dosyaları bulunur.
-  - `About`
-  - `Category`
-  - `Content`
-  - `Message`
-  - `Writer`
-- **Models**: View modelleri ve diğer yardımcı modeller bulunur.
-- **Scripts**: JavaScript dosyaları bulunur.
-- **Styles**: CSS dosyaları bulunur.
+  - `About` - `Category`- `Content` - `Message`- `Writer`
+
 
 ---
+## ✨ Yazar Paneli Giriş Sayfası
+![Ekran görüntüsü 2025-02-15 133305](https://github.com/user-attachments/assets/57c32765-21c6-472b-88b9-a707e3c20955)
 
-## 🛠️ Kurulum
+## ✨ Writer Panel (Yazar Paneli)
 
-Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
+Writer Panel, yazarların sözlük içeriğini yönetebileceği bir kontrol panelidir. Bu panelde yazarlar, başlıklarını, mesajlarını ve yazılarını yönetebilir. Ayrıca siteye erişim ve çıkış yapma gibi işlemler de bu panel üzerinden gerçekleştirilir.
 
-1. **Gereksinimler**:
-   - .NET Framework 4.7.2 veya üzeri
-   - Visual Studio 2019 veya üzeri
-   - SQL Server (LocalDB veya başka bir SQL Server)
+### **Writer Panel Özellikleri**
 
-2. **Veritabanı Kurulumu**:
-   - `DataAccessLayer/Migrations` klasöründeki migrasyon dosyalarını kullanarak veritabanını oluşturun.
-   - `Update-Database` komutunu Package Manager Console'da çalıştırarak veritabanını güncelleyin.
+#### **Sol Taraftaki Menü**
+- **Başlıklarım**: Yazarın oluşturduğu başlıkları listeler.
+- **Tüm Başlıklar**: Sitedeki tüm başlıkları görüntüleme imkanı sunar.
+- **Mesajlar**: Yazarın aldığı mesajları yönetebileceği bölüm.
+- **Yazılarım**: Yazarın eklediği yazıları listeler ve düzenleme imkanı sunar.
+- **Siteye Git**: Ana siteye hızlı erişim sağlar.
+- **Çıkış Yap**: Yazar hesabından çıkış yapmayı sağlar.
 
-3. **Projeyi Çalıştırma**:
-   - Visual Studio'da projeyi açın.
-   - `Ctrl + F5` tuşlarına basarak projeyi çalıştırın.
+ Writer Panel Ekran Görüntüsü!
+ ![Ekran görüntüsü 2025-02-15 134021](https://github.com/user-attachments/assets/d9e4f1cb-acb4-4dd9-84b0-e9c9433dbc03)
 
----
+ Bu WrıterLogın sayfası dışında Admin Login sayfası ve Admin Paneli de var!
+ 
+## ✨ Admin Login Sayfası ve Admin Paneli
 
-## ✨ Özellikler
+Admin paneli, sözlük sitesinin yönetimi için tasarlanmıştır. Adminler, iki farklı role sahiptir:
 
-- **Kategori Yönetimi**: Sözlük kategorileri ekleme, düzenleme ve silme.
-- **İçerik Yönetimi**: Sözlük içeriklerini ekleme, düzenleme ve silme.
-- **Yazar Yönetimi**: Yazar bilgilerini yönetme.
-- **Mesaj Yönetimi**: Kullanıcılar arası mesajlaşma.
-- **Hakkında Sayfası**: Site hakkında bilgilerin yönetimi.
+**Admin Rolleri**
+1. **Rol A (Sınırlı Erişim)**:
+   - Belirli sayfalara ve işlemlere erişim izni vardır.
+   - Örneğin, yazıları görüntüleyebilir ancak silme veya düzenleme yetkisi yoktur.
 
----
+2. **Rol B (Sınırsız Erişim)**:
+   - Tüm sayfalara ve işlemlere tam erişim izni vardır.
+   - Yazıları ekleme, düzenleme, silme ve kullanıcıları yönetme yetkisine sahiptir.
+   
 
-## 📝 Katkıda Bulunma
+![Ekran görüntüsü 2025-02-15 134732](https://github.com/user-attachments/assets/2c2f1134-ea03-44a3-bf60-0c5167dcf4fa)
 
-Projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
-1. Bu depoyu forklayın.
-2. Yeni bir branch oluşturun (`git checkout -b feature/AmazingFeature`).
-3. Değişikliklerinizi commit edin (`git commit -m 'Add some AmazingFeature'`).
-4. Branch'inize push yapın (`git push origin feature/AmazingFeature`).
-5. Bir Pull Request açın.
 
----
 
-## 📜 Lisans
-
-Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasını inceleyin.
-
----
