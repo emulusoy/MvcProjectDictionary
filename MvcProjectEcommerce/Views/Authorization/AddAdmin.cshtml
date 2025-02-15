@@ -1,0 +1,27 @@
+﻿@model EntityLayer.Concrete.Admin
+
+@{
+    ViewBag.Title = "AddAdmin";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Add New Category Page</h2>
+<br />
+@using (Html.BeginForm("AddAdmin", "Authorization", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.Label("Username");
+        @Html.TextBoxFor(x => x.AdminUsername);
+        <br />
+        @Html.Label("Write Category Description");
+        @Html.TextBoxFor(x => x.AdminPassword);
+        <br />
+        @Html.Label("role");
+        @Html.TextBoxFor(x => x.AdminRole);<br />
+        <button class="btn btn-outline-dark">Save</button>
+
+    </div>
+}
+
+<h2>AddAdmin</h2>
+

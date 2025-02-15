@@ -25,7 +25,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Yeni mesaj sayfası</h1>
+                    <h1>Yeni mesaj sayfası</h1>@ViewBag.mail
                 </div>
 
             </div>
@@ -46,8 +46,8 @@
                             </div>
                             <!-- /.card-header -->
                             <div class="card-body">
-                                <div class="form-group">
-                                    @Html.HiddenFor(x => x.MessageID, new { @class = "form-control" })
+                                <div class="form-group">                                   
+
                                     @Html.Label("Alici Maili")
                                     @Html.TextBoxFor(x => x.MessageReceiverMail, new { @class = "form-control" })
                                     @Html.ValidationMessageFor(x => x.MessageReceiverMail)
@@ -60,7 +60,7 @@
                                 <div class="form-group">
                                     @Html.Label("Mesajiniz")
                                     @Html.TextAreaFor(x => x.MessageContent, new { @class = "form-control", id = "compose-textarea", style = "height: 300px" })
-                                    @Html.ValidationSummary(false, "Lütfen aşağıdaki hataları düzeltin:", new { @class = "text-danger" })
+                                   
                                 </div>
                                 <div class="form-group">
                                     <div class="btn btn-default btn-file">

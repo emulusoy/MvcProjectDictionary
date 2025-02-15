@@ -7,6 +7,8 @@ using EntityLayer.Concrete;
 using System.Web.Security;
 using DataAccessLayer.Concrete;
 using System.Web.Configuration;
+using BusinessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
 
 namespace MvcProjectEcommerce.Controllers
 {
@@ -14,6 +16,7 @@ namespace MvcProjectEcommerce.Controllers
     public class WriterLoginController : Controller
     {
         // GET: WriterLogin
+        WriterLoginManager writerLoginManager = new WriterLoginManager(new EfWriterDal());
         
             [HttpGet]
             public ActionResult WriterLogin()
@@ -23,12 +26,13 @@ namespace MvcProjectEcommerce.Controllers
             [HttpPost]
             public ActionResult WriterLogin(Writer p)
             {
-                Context value2 = new Context();
-                var writerUser = value2.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
-                if (writerUser != null)
+                //Context value2 = new Context();
+                //var writerUser = value2.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
+                var writerUserInfo= writerLoginManager.GetWriter(p.WriterMail,p.WriterPassword);
+                if (writerUserInfo != null)
                 {
-                    FormsAuthentication.SetAuthCookie(writerUser.WriterMail, false);
-                    Session["WriterMail"] = writerUser.WriterMail;
+                    FormsAuthentication.SetAuthCookie(writerUserInfo.WriterMail, false);
+                    Session["WriterMail"] = writerUserInfo.WriterMail;
                     return RedirectToAction("MyContent", "WriterPanelContent");
                 }
                 else

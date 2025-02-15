@@ -4,9 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using BusinessLayer.Concrete;
+using BusinessLayer.ValidationRules_FluentValidation;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using FluentValidation.Results;
 using PagedList;
 using PagedList.Mvc;
 namespace MvcProjectEcommerce.Controllers
@@ -18,15 +20,34 @@ namespace MvcProjectEcommerce.Controllers
         HeadingManager headingManager=new HeadingManager(new EfHeadingDal());
         CategoryManager categoryManager=new CategoryManager(new EfCategoryDal());
         WriterManager writerManager=new WriterManager(new EfWriterDal());
+        WriterValidator validator=new WriterValidator();
 
         Context context = new Context();
-
+        [HttpGet]
         public ActionResult WriterProfileIndex(int id=0)
         {
             string p = (string)Session["WriterMail"];
             id = context.Writers.Where(x => x.WriterMail == p).Select(y => y.WriterID).FirstOrDefault();
             var writerValues = writerManager.GetById(id);
             return View(writerValues);
+        }
+        [HttpPost]
+        public ActionResult WriterProfileIndex(Writer p)
+        {
+            ValidationResult results = validator.Validate(p);
+            if (results.IsValid)
+            {
+                writerManager.WriterUpdate(p);
+                return RedirectToAction("AllHeading","WriterPanel");
+            }
+            else
+            {
+                foreach (var item in results.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+            }
+            return View();
         }
         public ActionResult MyHeading(string p) 
         {
@@ -56,6 +77,7 @@ namespace MvcProjectEcommerce.Controllers
         {
             string mail = (string)Session["WriterMail"];
             var findWriterId = context.Writers.Where(x => x.WriterMail == mail).Select(y => y.WriterID).FirstOrDefault();
+            ViewBag.writerId = findWriterId;
             p.HeadingDate =DateTime.Parse(DateTime.Now.ToShortDateString());
             p.WriterID = findWriterId;
             p.HeadingStatus=true;

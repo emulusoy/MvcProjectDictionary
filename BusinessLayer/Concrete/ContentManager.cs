@@ -14,7 +14,7 @@ namespace BusinessLayer.Concrete
     {
         IContentDal _contentDal;
 
-        public ContentManager(IContentDal contentDal)//
+        public ContentManager(IContentDal contentDal)
         {
             _contentDal = contentDal;
         }
@@ -38,9 +38,9 @@ namespace BusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
-        public List<Content> GetList()
+        public List<Content> GetList(string p)
         {
-           return _contentDal.List();
+           return _contentDal.List(x=>x.ContentText.Contains(p));
         }
 
         public List<Content> GetListByHeadingId(int id)

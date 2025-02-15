@@ -17,7 +17,7 @@ namespace MvcProjectEcommerce.Controllers
         // GET: WriterPanelMessage
 
         MessageManager messageManager = new MessageManager(new EfMessageDal());
-        MessageValidator messageValidatior = new MessageValidator();
+        MessageValidator valid = new MessageValidator();
         
         public ActionResult InboxWP()
         {
@@ -55,10 +55,11 @@ namespace MvcProjectEcommerce.Controllers
         public ActionResult NewMessageWP(Message p)
         {
             string mailP = (string)Session["WriterMail"];
-            ValidationResult results = messageValidatior.Validate(p);
+            ValidationResult results = valid.Validate(p);
             if (results.IsValid)
             {
                 p.MessageSenderMail = mailP;
+                ViewBag.mail= mailP;
                 p.MessageDate = DateTime.Parse(DateTime.Now.ToShortDateString());
                 messageManager.MessageAdd(p);
                 return RedirectToAction("SendBoxWP");

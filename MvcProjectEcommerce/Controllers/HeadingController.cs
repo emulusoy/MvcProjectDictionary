@@ -90,6 +90,11 @@ namespace MvcProjectEcommerce.Controllers
 
             return RedirectToAction("Index");
         }
-
+        [AllowAnonymous]
+        public ActionResult HeadingReport()
+        {
+            var headingValues = headingManager.GetList();
+            return View(headingValues);
+        }
     }
 }
