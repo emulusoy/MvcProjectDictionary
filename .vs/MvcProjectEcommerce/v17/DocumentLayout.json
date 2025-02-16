@@ -1,12 +1,70 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\views\\writerlogin\\writerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\writerlogin\\writerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\views\\writer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\writer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\mvcprojectecommerce\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WriterLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\WriterLogin\\WriterLogin.cshtml",
+              "RelativeDocumentMoniker": "MvcProjectEcommerce\\Views\\WriterLogin\\WriterLogin.cshtml",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\WriterLogin\\WriterLogin.cshtml",
+              "RelativeToolTip": "MvcProjectEcommerce\\Views\\WriterLogin\\WriterLogin.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T19:49:49.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Writer\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcProjectEcommerce\\Views\\Writer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Writer\\Index.cshtml",
+              "RelativeToolTip": "MvcProjectEcommerce\\Views\\Writer\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T19:39:17.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcProjectEcommerce\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\MvcProjectEcommerce\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "MvcProjectEcommerce\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T10:43:10.619Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
