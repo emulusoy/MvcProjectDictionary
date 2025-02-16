@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\writerlogin\\writerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|c:\\users\\emu\\source\\repos\\mvcprojectecommerce\\mvcprojectecommerce\\views\\writer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|C:\\Users\\eMu\\source\\repos\\MvcProjectEcommerce\\mvcprojectecommerce\\views\\writer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9CB405F3-2A7E-4063-BBB7-4EC2BF49DA7A}|MvcProjectEcommerce\\MvcProjectEcommerce.csproj|solutionrelative:mvcprojectecommerce\\views\\writer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -47,8 +47,7 @@
               "RelativeToolTip": "MvcProjectEcommerce\\Views\\Writer\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAADcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-16T19:39:17.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T19:39:17.606Z"
             },
             {
               "$type": "Document",
